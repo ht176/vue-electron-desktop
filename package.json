@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueuse/core": "^10.6.1",
+    "granim": "^2.0.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
