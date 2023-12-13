@@ -1,7 +1,7 @@
 {
   "name": "vue-electron-desktop",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build && electron-builder",
@@ -10,12 +10,15 @@
   "dependencies": {
     "@vueuse/core": "^10.6.1",
     "granim": "^2.0.0",
-    "vue": "^3.3.4"
+    "particles.js": "^2.0.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.4",
     "autoprefixer": "^10.4.16",
     "electron": "^26.1.0",
+    "electron-as-wallpaper": "^1.0.3",
     "electron-builder": "^24.6.4",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
